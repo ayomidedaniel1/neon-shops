@@ -8,7 +8,7 @@ module.exports = {
       'error',
       {
         endOfLine: 'auto',
-        semi: true,
+        semi: 'auto',
       },
     ],
     'no-console': 'off',
