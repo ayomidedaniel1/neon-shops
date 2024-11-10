@@ -11,5 +11,6 @@ module.exports = {
         semi: true,
       },
     ],
+    'no-console': 'off',
   },
 };
