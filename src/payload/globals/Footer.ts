@@ -1,6 +1,6 @@
-import type { GlobalConfig } from 'payload/types';
+import type { GlobalConfig } from 'payload/types'
 
-import link from '../fields/link';
+import link from '../fields/link'
 
 export const Footer: GlobalConfig = {
   slug: 'footer',
@@ -10,9 +10,8 @@ export const Footer: GlobalConfig = {
   fields: [
     {
       name: 'copyright',
-      label: 'copyright',
+      label: 'Copyright',
       type: 'text',
-      required: true
     },
     {
       name: 'navItems',
@@ -25,4 +24,4 @@ export const Footer: GlobalConfig = {
       ],
     },
   ],
-};
+}

@@ -83,7 +83,7 @@
   flex-wrap: wrap;
   margin: calc(var(--base) * -0.5);
 
-  &>* {
+  & > * {
     margin: calc(var(--base) / 2);
   }
 }
